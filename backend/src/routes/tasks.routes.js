@@ -3,6 +3,6 @@ import userController from '../controllers/tasks.controller.js'
 
 const router = Router()
 
-router.get("/", userController)
+router.get("/", userController.getAllTasks)
 
 export default router
