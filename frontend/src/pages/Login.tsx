@@ -10,7 +10,7 @@ const Login:React.FC = () => {
                 <div className='flex flex-col gap-3 pb-2'>
                     <div className='flex flex-col'>
                         <label htmlFor="email" className='text-sm'>Email</label>
-                        <input type="text" name="email" id="email"className='px-5 py-2 text-sm border border-slate-300 rounded-sm' required/>
+                        <input type="email" name="email" id="email"className='px-5 py-2 text-sm border border-slate-300 rounded-sm' required/>
                     </div>
 
                     <div className='flex flex-col'>
